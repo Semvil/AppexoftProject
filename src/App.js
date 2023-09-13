@@ -6,6 +6,7 @@ function App() {
     <div className="bg-primary">
       App
       <img src={logo} alt="logo" />
+      Nav Hero ComputerSection EmailSection Card Footer
     </div>
   );
 }
