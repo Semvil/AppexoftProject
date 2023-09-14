@@ -1,14 +1,14 @@
 import laptop from "../assets/laptop.png";
 
 const DashboardSection = () => (
-  <div className="container mx-auto py-16">
-    <div className="flex items-center">
+  <div className="container mx-auto py-8 px-4 md:py-16">
+    <div className="flex flex-col md:flex-row md:items-center">
       <img src={laptop} alt="Laptop" className="mx-16" />
       <div>
         <p className="text-green font-bold uppercase">
           DATA ANALYTICS DASHBOARD
         </p>
-        <h2 className="text-4xl font-bold mt-2">
+        <h2 className="text-3xl md:text-4xl font-bold mt-2">
           Manage Data Analytics Centrally
         </h2>
         <p className="text-sm leading-6 mt-2">
