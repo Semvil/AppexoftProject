@@ -1,12 +1,20 @@
 import React from "react";
 import logo from "./assets/Facebook.svg";
+import Card from "./components/Сard";
+import Footer from "./components/Footer";
+import NavHero from "./components/NavHero";
+import DashboardSection from "./components/DashboardSection";
+import SubscribeSection from "./components/SubscribeSection";
 
 function App() {
   return (
-    <div className="bg-primary">
-      App
-      <img src={logo} alt="logo" />
-    </div>
+    <>
+      <NavHero />
+      <DashboardSection />
+      <SubscribeSection />
+      <Card />
+      <Footer />
+    </>
   );
 }
 

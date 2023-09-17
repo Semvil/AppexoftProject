@@ -9,9 +9,11 @@ module.exports = {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
+        green: "#00DF9A",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
     screens: {
@@ -19,8 +21,7 @@ module.exports = {
       ss: "620px",
       sm: "768px",
       md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      lg: "1240px",
     },
   },
   plugins: [],
