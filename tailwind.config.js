@@ -11,6 +11,10 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
         green: "#00DF9A",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
     screens: {
       xs: "480px",
