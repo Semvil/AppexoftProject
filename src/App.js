@@ -3,8 +3,8 @@ import NavHero from "./components/NavHero";
 
 function App() {
   return (
-<div>
-        <NavHero/>
+    <div>
+      <NavHero />
     </div>
   );
 }
