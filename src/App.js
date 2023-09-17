@@ -8,15 +8,13 @@ import SubscribeSection from "./components/SubscribeSection";
 
 function App() {
   return (
-    <div className="bg-secondary w-full overflow-hidden">
-      <div className="bg-black">
-        <NavHero />
-        <DashboardSection />
-        <SubscribeSection />
-        <Card />
-        <Footer />
-      </div>
-    </div>
+    <>
+      <NavHero />
+      <DashboardSection />
+      <SubscribeSection />
+      <Card />
+      <Footer />
+    </>
   );
 }
 
